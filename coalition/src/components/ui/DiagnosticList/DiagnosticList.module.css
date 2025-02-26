@@ -1,0 +1,52 @@
+.diagnosticList {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    margin-top: 2.5rem;
+    width: 100%;
+    border-collapse: collapse;
+    height: 250px;
+    overflow-y: auto;
+    display: block;
+    max-height: 200px; /* Adjust height as needed */
+    overflow-y: auto;
+  }
+  .tableContainer{
+    overflow-y: auto;
+    height: 250px;
+  }
+  th, td {
+    padding: 21px 16px; 
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+     
+  }
+  thead tr th:first-child  {
+    border-radius: 1.5rem 0 0 1.5rem;
+  }
+  thead tr th:last-child  {
+    border-radius: 0 1.5rem 1.5rem 0;
+  }
+  th {
+    background-color: #f0f0f0;
+    font-size: 14px;
+    padding: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .diagnosticList {
+      padding: 10px;
+    }
+  
+    th, td {
+      padding: 5px;
+    }
+  }
+  
+  

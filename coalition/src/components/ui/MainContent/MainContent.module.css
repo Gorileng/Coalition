@@ -1,0 +1,13 @@
+.mainContent {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    border-radius: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .mainContent {
+      width: 100%;
+    }
+  }
+  
